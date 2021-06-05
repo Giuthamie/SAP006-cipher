@@ -1,14 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
+
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href='https://br.freepik.com/fotos/fundo'>
+
 </head>
 <body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
-  <script src="index.js" type="module"></script>
+
+  <header>
+
+     <h1> ...Meu querido diário...</h1>
+
+     <p><b>Um site exclusivo para manter seu diário secreto através da Cifra de Cesar!!!!
+       <br>
+       Basta codificar e/ou decodificar uma mensagem, selecionando um número de deslocamento, digitar sua mensagem desejada e com um click a mágica acontece!</b>
+       </br>
+     </p>
+
+  </header> 
+    
+  <section>
+     <br>
+    <select number="números">
+         <option value="numeros">Deslocamento</option> 
+         <option value="um">1</option> 
+         <option value="dois">2</option> 
+         <option value="três">3</option> 
+         <option value="quatro">4</option> 
+         <option value="cinco">5</option> 
+         <option value="seis">6</option> 
+         <option value="sete">7</option> 
+         <option value="oito">8</option> 
+         <option value="nove">9</option> 
+         <option value="dez">10</option> 
+         <option value="onze">11</option> 
+         <option value="doze">12</option> 
+         <option value="treze">13</option> 
+         <option value="quatorze">14</option> 
+         <option value="quinze">15</option> 
+         <option value="dezesseis">16</option> 
+         <option value="dezessete">17</option> 
+         <option value="dezoito">18</option> 
+         <option value="dezenove">19</option> 
+         <option value="vinte">20</option>
+         
+    </select>
+     </br>
+    <br>
+     <div class="cifrar">
+          <label for="cifrar">Cifrar mensagem</label>
+          <textarea name="cifrar" id="cifrar" rows="05" cols="20">Digite aqui</textarea>
+     </div>
+    </br>  
+
+     <div class="botao">
+        <button id="codificar">Codificar</button>
+     </div>
+
+    <br>
+     <div class="decifrar">
+        <label for="decifrar">Decifrar mensagem</label>
+        <textarea name="decifrar" id="decifrar" rows="05" cols="20">Digite aqui</textarea>
+     </div>
+    </br>
+
+     <div class="botao">
+        <button id="decodificar">Decodificar</button>
+     </div>
+
+   <br>
+    <div class="Resposta">
+        <label for="resposta"></label>
+        <textarea name="Resposta" id="resposta" rows="05" cols="20">Sua Resposta aparecerá aqui</textarea>
+    </div>
+   </br> 
+
+   </section>
+     
+  <footer>
+      &copy Giuliana Thamiê
+  </footer>
+    
+
+   <script src="index.js" type="module"></script>
 </body>
 </html>
