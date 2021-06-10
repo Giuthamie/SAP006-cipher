@@ -8,58 +8,52 @@ body {
     display: block;
     background-repeat: no-repeat;
     margin: 0%;
+    color: purple;
+    text-align:center;
     
 }
 
     
 
-h1 {
-        color: purple;
-        text-align:center;
-        font-size: 35px;
+h1, {
+        
+    font-size: 35px;
     } 
 
 p {
-        color: purple;
-        text-align:center;
+    
         font-size: 20px;
             
     } 
 
-textarea {
+ #cifra, #decifra,  {
     background-color: transparent;
     font-size: 18px;
     color: purple;
     font-family:'Dancing Script', cursive;
-    margin: 0% 46% 0% 46%;
+    margin: 0% 46%;
     text-align: center;
-    border:rgb(167, 91, 167)  
+    border-style: inset;
+    border-color: violet;   
 }
-select {
-    font-family:'Dancing Script', cursive;
-    font-size: 18px;
+
+  #desloc {
     background-color: transparent;
-    margin: 0% 46% 0% 46%;
-    color: purple;
-}
+    border-style: inset;
+    border-color: violet; 
+    margin: 0% 46%;  
+  }  
 
-    
-.botao {
-    border: 5px; 
-    margin: 0% 46% 0% 46%;
-    background-color: transparent;
-    
-}
-
-.cifrar {
+label {
     color: purple;
     font-family:'Dancing Script', cursive;
     display: block;
-    margin: 0% 46% 0% 46%;
+    margin: 0% 46%;
     font-size: 18px;
 }
     
-.decifrar {
+
+#resp {
     color: purple;
     font-family:'Dancing Script', cursive;
     display: block;
@@ -67,13 +61,8 @@ select {
     font-size: 18px;
 }
 
-.resposta {
-    color: purple;
-    font-family:'Dancing Script', cursive;
-    display: block;
-    margin: 0% 46% 0% 46%;
-    font-size: 18px;
+footer {
+    position: fixed;
 }
-
     
 
