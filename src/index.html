@@ -26,25 +26,25 @@
      
   </header> 
     
-  <section>
-    <div id="desloc">
+  <main>
+    <div class="offset">
     <label for="number">Chave de Deslocamento:</label>
-    <input type="number" name="deslocamento" id="deslocamento">
+    <input type="number" name="deslocamento" id="deslocamento" min="1">
     </div>
     
      
 
-     <div id="cifra">
+     <div class="cifra">
           <label for="cifrar">Cifrar mensagem</label>
           <input type="text" name="cifrar" id="cifrar" placeholder="Digite aqui">
-          <input type="button"name="decodificar" value="codificar">
+          <input type="button"name="codificar" id="button1" value="codificar" >
      </div>
      
          
-     <div id="decifra">
+     <div class="decifra">
         <label for="decifrar">Decifrar mensagem</label>
         <input type="text" name="decifrar" id="decifrar" placeholder="Digite aqui">
-        <input type="button"name="decodificar" value="decodificar">
+        <input type="button"name="decodificar" id="button2" value="decodificar">
      </div>
     
    
@@ -54,7 +54,7 @@
     </div>
    
 
-   </section>
+  </main>
      
   <footer>
       &copy Giuliana Thamiê
