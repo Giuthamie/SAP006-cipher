@@ -28,30 +28,32 @@
     
   <main>
     <div class="offset">
-    <label for="number">Chave de Deslocamento:</label>
-    <input type="number" name="deslocamento" id="deslocamento" min="1">
+    <label for="number">Chave de Deslocamento</label>
+    <input type="number" name="deslocamento" id="deslocamento" min="1" size="5">
     </div>
     
-     
+     <section class="caixas">
 
-     <div class="cifra">
+      <div class="cifra">
           <label for="cifrar">Cifrar mensagem</label>
-          <input type="text" name="cifrar" id="cifrar" placeholder="Digite aqui">
+          <textarea name="cifrar" id="cifrar" rows="5" cols="30"  placeholder="Digite aqui"></textarea>
           <input type="button"name="codificar" id="button1" value="codificar" >
-     </div>
+      </div>
      
          
-     <div class="decifra">
+      <div class="decifra">
         <label for="decifrar">Decifrar mensagem</label>
-        <input type="text" name="decifrar" id="decifrar" placeholder="Digite aqui">
+        <textarea name="cifrar" id="decifrar" rows="5" cols="30" placeholder="Digite aqui"></textarea>
         <input type="button"name="decodificar" id="button2" value="decodificar">
-     </div>
+      </div>
     
    
-    <div id="resp">
-        <label for="resposta"></label>
-        <input type="text" name="resposta" id="resposta" placeholder="Sua Mensagem aparecerá aqui">
-    </div>
+      <div id="resp">
+        <label for="resposta">Resposta</label>
+        <textarea name="resposta"  id="resposta" rows="5" cols="30" placeholder="Sua mensage aparecerá aqui"></textarea>
+      </div>
+
+   </section>
    
 
   </main>

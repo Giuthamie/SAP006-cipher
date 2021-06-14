@@ -13,7 +13,8 @@ encode: function (offset, string){
   textoCifrar+=String.fromCharCode(codigoformci);
   }
   }
-  console.log(textoCifrar);
+  return textoCifrar;
+  //console.log(textoCifrar);
 },
   
   
@@ -25,12 +26,13 @@ decode: function(offset, string){
   let codigomsgde = string.charCodeAt(i);
   
   if(codigomsgde >=65 && codigomsgde <=90){
-  let codigoformde = 90-((90-codigomsgde + numberoffset) %26);
+  let codigoformde = ((codigomsgde - 90 - numberoffset) %26) + 90;
   textoDecifrar+=String.fromCharCode(codigoformde);
 
 }
 }
-console.log(textoDecifrar);
+return textoDecifrar;
+//console.log(textoDecifrar);
 }
 
 };

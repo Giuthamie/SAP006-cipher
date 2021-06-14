@@ -20,7 +20,6 @@ botaodecifrar.addEventListener("click", decifrar);
 function cifrar() {
     offset = Number(document.getElementById("deslocamento").value)
     cifra =  document.getElementById("cifrar").value
-    console.log(cifra)
     resp =  document.getElementById("resposta")
     return resp.value = cipher.encode(offset,cifra);
 }
@@ -29,8 +28,8 @@ function decifrar () {
     offset = Number(document.getElementById("deslocamento").value)
     decifra = document.getElementById("decifrar").value
     resp = document.getElementById("resposta")
-    return resp.value = cipher.encode(offset,decifra);
+    return resp.value = cipher.decode(offset,decifra);
 }
 
 
-console.log(cipher);
+//console.log(cipher);
