@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+<link href='https://br.freepik.com/fotos-vetores-gratis/pessoas'>
+
+</head>
+<body>
+  
+
+    <header>
+
+    <h1> ...Meu querido diário...</h1>
+
+    <b>
+    <p>
+      Um site exclusivo para manter seu diário secreto através da Cifra de Cesar!!!!
+    </p>
+
+    <p>
+      Basta codificar e/ou decodificar uma mensagem, 
+      selecionando um número de deslocamento, 
+      digitar sua mensagem desejada e com um click a mágica acontece!
+      
+    </p>
+    </b>
+    </header> 
+      
+    <main>
+
+        <div class="offset">
+          <label for="number">Chave de Deslocamento</label>
+          <input type="number" name="deslocamento" id="deslocamento" min="1" size="5" autocomplete="off">
+        </div>
+
+        <div class="cifra">
+            <label for="cifrar">Cifrar mensagem</label>
+            <textarea name="cifrar" id="cifrar" rows="5" cols="30"  autocomplete="off" placeholder="Digite aqui"></textarea>
+        </div>
+
+        <div class="button">
+          <button id="button1" value="codificar" >Codificar</button>
+        </div>
+      
+        <div class="decifra">
+          <label for="decifrar">Decifrar mensagem</label>
+          <textarea name="cifrar" id="decifrar" rows="5" autocomplete="off" cols="30" placeholder="Digite aqui"></textarea>
+        </div>
+
+        <div class="button">
+          <button id="button2" value="decodificar" >Decodificar </button>
+        </div>
+      
+        <div class="resp">
+          <label for="resposta">Resposta</label>
+          <textarea name="resposta"  id="resposta" rows="5" cols="30" autocomplete="off" placeholder="Sua mensage aparecerá aqui"></textarea>
+        </div>
+        
+    </main>
+
+    <footer>
+      
+        &copy Giuliana Thamiê
+    </footer>
+      
+  
+   <script src="index.js" type="module"></script>
+</body>
+</html>
