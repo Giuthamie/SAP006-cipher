@@ -11,7 +11,7 @@
 
 ## 1. Sobre o projeto
 
-Uma aplicação Web referente ao primeiro projeto do bootcamp da [Laboratoria] (https://www.laboratoria.la/br).
+Uma aplicação Web referente ao primeiro projeto do bootcamp da [Laboratoria](https://www.laboratoria.la/br).
 
 Esta aplicação possibilita ao usuário uma versão digital de seu diário criptografado para manter sua privacidade. Além disto, o site conta com a opção descriptografar, caso o usuário se esqueça do significado da mensagem.
 
@@ -54,16 +54,15 @@ Primeiramente foi pensado num layout simples para que o usuário pudesse criptog
 
 Primeiro desenho:
 
-INSERIR IMAGEM
+![Imagem Layout]()
 
 Depois foi criado um layout com formato mais parecido com um diário para que o usuário possa sentir que esteja de fato escrevendo no mesmo, possibilitando uma interação mais agradável. A seguir, imagem da interface final:
 
-INSERIR IMAGEM
+![Imagem final site]()
 
 
 As fontes e cores foram definidas a partir da imagem de background para maior harmonização e satisfação visual.
 
-INSERIR IMAGEM
 
 
 ## 4. Objetivos de aprendizagem
