@@ -1,10 +1,5 @@
 import cipher from './cipher.js';
 
-// Criar as variáveis primeiro, declarando fora da function
-// o addEventListener vai fazer a ação funcionar
-// Pela ID chama para acontecer
-// .value para transformar o valor em número
-//  
 
 let offset;
 let cifra;
