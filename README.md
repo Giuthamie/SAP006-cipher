@@ -4,8 +4,8 @@
 
 * [1. Sobre o projeto](#1-sobre-o-projeto)
 * [2. O site](#2-o-site)
-* [3. Considerações gerais](#4-considerações-gerais)
-* [4. Objetivos de aprendizagem do projeto](#5-objetivos-de-aprendizagem)
+* [3. Considerações gerais](#3-considerações-gerais)
+* [4. Objetivos de aprendizagem do projeto](#4-objetivos-de-aprendizagem)
 
 ***
 
@@ -28,13 +28,13 @@ substituida por outra que se encontra há um número fixo de posições
 
 ## 2. O site
 
-O site foi desenvolvido pensando numa solução para usuários que utilizam a escrita como forma de expressão de seus sentimentos e pensamentos, e temem a violação de sua privacidade através da leitura de seus diários por terceiros. 
+O site foi desenvolvido pensando principalmente em usuárias adolescentes que utilizam a escrita como forma de expressão de seus sentimentos e pensamentos, e temem a violação de sua privacidade através da leitura de seus diários por terceiros. Porém pode ser utilizado por quem desejar. 
 
 
 ## 3. Considerações gerais
 
 * O projeto foi realizado individualmente.
-* Usuário e objetivo do produto: qualquer pessoa que faz uso da escrita para externalizar seus pensamentos/sentimentos e deseja mantê-los secreto.
+* Usuário e objetivo do produto: principamente adolescentes do sexo feminino, porém qualquer pessoa que faz uso da escrita para externalizar seus pensamentos/sentimentos e deseja mantê-los secreto, é bem vindo.
 
 ### Interface UI e UX
 
@@ -54,11 +54,11 @@ Primeiramente foi pensado num layout simples para que o usuário pudesse criptog
 
 Primeiro desenho:
 
-![Imagem Layout]()
+![Imagem Layout](https://github.com/Giuthamie/SAP006-cipher/blob/main/layoutinicial.jpeg)
 
-Depois foi criado um layout com formato mais parecido com um diário para que o usuário possa sentir que esteja de fato escrevendo no mesmo, possibilitando uma interação mais agradável. A seguir, imagem da interface final:
+Depois foi criado um layout com formato mais parecido com um diário (a partir da imagem de background) para que o usuário possa sentir que esteja de fato escrevendo no mesmo, possibilitando uma interação mais agradável. A seguir, imagem da interface final:
 
-![Imagem final site]()
+![Imagem final site](https://github.com/Giuthamie/SAP006-cipher/blob/main/Screenshot%20from%202021-06-18%2015-39-02.png)
 
 
 As fontes e cores foram definidas a partir da imagem de background para maior harmonização e satisfação visual.
@@ -109,3 +109,7 @@ Abaixo lista dos objetivos de aprendizagem alcançados neste projeto:
 * [ ] Desenhar a aplicação pensando e entendendo o usuário.
 * [ ] Criar protótipos para obter feedback e iterar.
 * [ ] Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
+
+***
+
+Um projeto de Giuliana Thamiê.
